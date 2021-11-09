@@ -1,0 +1,54 @@
+name: hera
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - alembic
+  - astropy
+  - astropy-healpix
+  # remove bokeh when hera_notebook_templates is updated
+  - bokeh
+  - cartopy
+  - plotly::chart-studio
+  - coverage
+  - flake8
+  - h5py
+  # remove healpy when hera_notebook_templates is updated
+  - healpy
+  - ipython
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - plotly
+  - psutil
+  - psycopg2
+  - pypandoc
+  - pytest
+  - pytest-cov
+  - python-dateutil
+  - pyuvdata
+  - pyyaml
+  - redis-py
+  # remove scikit-learn when hera_notebook_templates is updated
+  - scikit-learn
+  - scipy
+  - setuptools_scm
+  - six
+  - sphinx
+  - sqlalchemy
+  - tabulate
+  - pip
+  # in the future, add /<path/to/repos>/hera_notebook_templates
+  # but for now, that causes conflicts
+  # after spinning up environment, cd into /<path/to/repos>/hera_notebook_templates
+  # and run pip install --no-deps .
+  - pip:
+      - pytest-cases
+      - flake8-docstrings
+      - flake8-pytest
+      - /<path/to/repos>/hera_qm
+      - /<path/to/repos>/hera_mc
+      - /<path/to/repos>/hera_cm_db_updates
+      - /<path/to/repos>/uvtools
+      - /<path/to/repos>/SSINS
