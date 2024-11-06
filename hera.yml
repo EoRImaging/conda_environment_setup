@@ -49,6 +49,6 @@ dependencies:
       - hera_qm
       - git+https://github.com/HERA-Team/hera_mc
       - git+https://github.com:HERA-Team/hera_mc
-      - git+https://github.com:HERA-Team/hera_cm_db_updates
-      - git+https://github.com:HERA-Team/uvtools
-      - git+https://github.com:mwilensky768/SSINS
+      - git+https://github.com/HERA-Team/hera_cm_db_updates
+      - git+https://github.com/HERA-Team/uvtools
+      - git+https://github.com/mwilensky768/SSINS
