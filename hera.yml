@@ -47,7 +47,8 @@ dependencies:
       - flake8-docstrings
       - flake8-pytest
       - hera_qm
-      - git@github.com:HERA-Team/hera_mc.git
-      - git@github.com:HERA-Team/hera_cm_db_updates.git
-      - git@github.com:HERA-Team/uvtools.git
-      - git@github.com:mwilensky768/SSINS.git
+      - git+https://github.com/HERA-Team/hera_mc
+      - git+https://github.com:HERA-Team/hera_mc
+      - git+https://github.com:HERA-Team/hera_cm_db_updates
+      - git+https://github.com:HERA-Team/uvtools
+      - git+https://github.com:mwilensky768/SSINS
